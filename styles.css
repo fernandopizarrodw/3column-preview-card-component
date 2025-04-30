@@ -1,0 +1,166 @@
+* {
+    
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* ← evita el scroll horizontal */
+  }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 500px;
+
+}
+
+.tarjetas {
+    display: flex;
+    height: 100%;
+    width: 850px;
+
+}
+
+img {
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 60px;
+    height: auto;
+}
+
+h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: hsl(0, 0%, 95%);
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 2.5rem;
+
+
+
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 30px 50px 110px 40px;
+    color: hsla(0, 0%, 100%, 0.75);
+    width: 230px;
+    line-height: 1.6rem;
+
+}
+
+.btn {
+    margin-top: 300px;
+    margin-left: 40px;
+    border-radius: 50px;
+    background-color: rgb(208, 208, 208);
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 15px 30px;
+
+
+
+}
+
+
+
+.card-one {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+
+}
+
+.card-two {
+    background-color: hsl(184, 100%, 22%);
+
+}
+
+.card-three {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+
+}
+
+.card-one .btn {
+    color: hsl(31, 77%, 52%);
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+
+.card-two .btn {
+    color: hsl(184, 100%, 22%);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.card-three .btn {
+    color: hsl(179, 100%, 13%);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.attribution {
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10%;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+@media (max-width: 768px) {
+    .container {
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+      padding: 20px;
+    }
+  
+    .tarjetas {
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+    }
+  
+    .card-one,
+    .card-two,
+    .card-three {
+      width: 100%;
+      height: auto;
+      padding: 40px;
+      border-radius: 0;
+      padding-bottom: 60px;
+    }
+  
+    .card-one {
+      border-radius: 10px 10px 0 0;
+    }
+  
+    .card-three {
+      border-radius: 0 0 10px 10px;
+    }
+  
+    .btn {
+      margin-top: 20px;
+      padding: 12px 24px;
+      border-radius: 25px;
+      
+    }
+  }
+  
+  
+  
+   
