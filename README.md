@@ -8,7 +8,7 @@ A 3-column layout built with Flexbox that adapts well to small screens.
 
 ### Screenshot
 
-![Desktop Screenshot](./screenshot.jpg)
+![Desktop Screenshot](./images/screenshot-desktop.jpg)
 
 ### Links
 
